@@ -9,13 +9,13 @@ import Dragdrop from './components/dragdrop';
 function App() {
   return (
     <Router>
-      {/* <Navbar />  
+      <Navbar />  
       <div className="container0">
       <div className='container1'>
       <Text />
       <Cards />
       </div>
-      </div> */}
+      </div>
       <Dragdrop />
       <Switch>
         <Route path='/' />
