@@ -9,6 +9,7 @@ import Dragdrop from './components/dragdrop';
 function App() {
   return (
     <Router>
+      
       <Navbar />  
       <div className="container0">
       <div className='container1'>
@@ -20,6 +21,7 @@ function App() {
       <Switch>
         <Route path='/' />
       </Switch>
+
     </Router>
   );
 }
