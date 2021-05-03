@@ -1,0 +1,55 @@
+.drag-container {
+    text-align: center;
+    margin-top: 100px;
+    align-items: center;
+
+  } 
+   body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+  }
+  .contbox{
+
+    display: block;
+    overflow: auto;
+    width: 100%;
+  }
+  .head {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-color: #CCCCCC;
+    width:100%;
+  }
+
+
+  .droppable {
+    float: left;
+    width: 200px;
+    height: 400px;
+    margin: 100px 0px 0px 100px;
+    right: 0;
+    top: 10;
+    background-color: #9E9E9E;
+    border-left: 2px dotted red;
+  }
+  
+  .draggable {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    margin: 10px auto;
+  }
+  
+  .inProgress {
+    width: 200px;
+    height: 400px;
+    left: 0;
+    top: 10;
+    margin: 100px 0px 0px 100px;
+    background-color: #EEEEEE;
+    border-right: 2px dotted red;
+  }
+
+  
