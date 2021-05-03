@@ -1,5 +1,5 @@
 # To run the project
-Clone and use npm start
+Clone and use npm install to install required packages, then npm start
 
 # Getting Started with Create React App
 
