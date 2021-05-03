@@ -1,4 +1,4 @@
-#To run the project
+# To run the project
 Clone and use npm start
 
 # Getting Started with Create React App
